@@ -1,87 +1,101 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
-    font-size: 1.2vw;
+    font-family: 1.2vw;
 }
 
 #logo {
     margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    box-shadow: 5px 5px 10px 3px rgb(134, 58, 81);
-    width: 13%;
-    text-shadow: 2px 2px 5px rgb(171, 60, 93)
+    padding: 12px;
+    height: 8vh;
+    font-family: "Lilita One", Franklin Gothic medium;
+    text-shadow: 2px 2px 5px rgb(169, 42, 80);
 }
 
-ul{
+ul {
     margin: 0px;
 }
-
 body > header {
     background-color: rgb(191, 126, 145);
     color: bisque;
+    margin: 0px;
     display: flex;
     height: 12vh;
-    align-items: center; 
-    justify-content: space-around;
-}
-
-#nav-ul {
-    display: flex;
-}
-
-#nav-ul > li {
-    padding: 8px;
-    margin: 16px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
+    gap: 40px;
+    display: flex;
 }
 
-.navbutton {
-    color: bisque;
-    text-decoration: none;
+.nav-ul {
     padding: 12px;
-    border: 1px solid bisque;
-    border-radius: 25%;
+    margin: 16px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: bisque;
+    padding: 12px; 
+    border: 2px solid bisque;
+    border-radius: 15%;
 }
 
 body > main article {
-    width: 80%;
-    margin: auto; 
+    margin: auto;
+    width: 70%;
 }
 
 #main-content {
     display: flex;
-    justify-content: space-around;
 }
 
-#main-content > div {
-    width: 70%;
+#ingredients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul {
+    text-align: center;
+
+}
+
+div > #form {
+    text-align: center;
+    margin: 0px;
+    width: 300px;
+    border: 2px solid rgb(169, 42, 80);
+    padding: 20px;
+    margin: 20px auto;         
+    width: 300px;
+}
+
+section > h2 {
+    margin: 0px;
+}
+
+section > h3 {
+    margin: 0px 0px 15px 0px;
 }
 
 form {
-    text-align: center;
+    margin: 15px;
 }
 
-h2 {
-    text-align: center;
-}
 body > footer {
-    background-color:rgb(191, 126, 145);
+    background-color: rgb(191, 126, 145);
     display: flex;
-    align-items: center;
-}
 
-img {
-    border-radius: 30%;
 }
-
 #footer-ul {
     display: flex;
     list-style: none;
+    text-align: center;
 }
 
 #footer-ul > div > li {
@@ -89,6 +103,6 @@ img {
 }
 
 #footer-ul > div > li > a {
-    text-decoration: none;
     color: bisque;
+    text-decoration: none;
 }
